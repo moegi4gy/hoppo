@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>北方大開発ぽ～たる</title>
+ <meta charset="UTF-8">
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <link rel="stylesheet" href="css/mainstyle.css" />
+ <script src="javascript/mainscript.js"></script>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="架空地図創作企画「北方大開発」のポータルサイトです。">
+ <meta name="format-detection" content="telephone=no, email=no, address=no">
+ <meta name="theme-color" content="#0a2933">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="twitter:url" content="https://hoppo.suzuran09.jp/">
+ <meta name="twitter:title" content="北方大開発ぽ～たる">
+ <meta name="twitter:description" content="架空地図創作企画「北方大開発」のポータルサイトです。">
+ <meta name="twitter:image" content="img/thumbnail/gojostation.jpg">
+ <link rel="icon" href="/favicon.ico" type="image/x-icon">
+ <link rel="apple-touch-icon-precomposed" href="img/icon.jpg" />
+ <meta name="application-name" content="北方大開発ぽ～たる">
+ 
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+ <!--
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+ -->
+</head>
+
+<body>
+<header>
+ <h1>北方大開発ぽ～たる</h1>
+ <span>NORCE AREA DEVELOPMENT</span>
+</header>
+
+<main>
+ <div class="image-holder"></div>
+ <div class="grid-wrapper">
+  <label class="grid-item" for="expand-item1">
+   <input type="checkbox" id="expand-item1">
+   <div>世界観を<span>覗く</span></div>
+   <div class="grid-item-english">SETTING MATERIALS</div>
+   <div class="grid-hided" id="hidden-item1">
+    <ul>
+     <li><a>総合資料室</a></li>
+     <li><a>地名対応表</a></li>
+     <li><a>開発コンテスト</a></li>
+    </ul>
+   </div>
+  </label>
+  <label class="grid-item" for="expand-item2">
+   <input type="checkbox" id="expand-item2">
+   <div>まちを<span>探す</span></div>
+   <div class="grid-item-english">MUNICIPALITIES</div>
+   <div class="grid-hided" id="hidden-item2">
+    <ul>
+     <li><a>作品検索</a></li>
+    </ul>
+   </div>
+  </label>
+  <label class="grid-item" for="expand-item3">
+   <input type="checkbox" id="expand-item3">
+   <div>創作に<span>加わる</span></div>
+   <div class="grid-item-english">APPLICATION FORM</div>
+   <div class="grid-hided" id="hidden-item3">
+    <ul>
+     <li><a>申請フォーム</a></li>
+     <li><a>参加規約</a></li>
+    </ul>
+   </div>
+  </label>
+ </div>
+
+ <div id="about">
+  <h2><span>「北方大開発」とは何か…？</span></h2>
+  <p>北方大開発（ほっぽうだいかいはつ）は、樺太・千島・勘察加が「もし日本のような街づくりをされたらどうなるか？」をテーマとして、複数人で架空地図を創り上げる企画です（いわゆる「北方領土問題」など日露間国境に関する主張とは一切関係がなく、完全なるフィクションです）。</p>
+  <p>当企画は、「ラプラス」氏（X：<a href="https://x.com/hoppo2030">hoppo2030</a>）の主催により、サイト「<a href="https://any.chi-zu.net">空想地図</a>」にて2021年12月16日にスタートしました。2026年8月現在は、63名の参加者を擁しています。</p>
+  <p>※当サイト及び企画内のコンテンツについて、実在の個人・団体・企業等とは関係ございません。</p>
+ </div>
+
+ <div id="links">
+  <h2>外部リンク集</h2>
+  <ul>
+   <li><a href="https://any.chi-zu.net/31468.html">空想地図「【企画】北方大開発」</a></li>
+   <li><a href="https://wikiwiki.jp/hoppo/">北方大開発Wiki</a></li>
+   <li><a href="https://any.chi-zu.net/62446.html">北海道の市町村</a></li>
+   <li><a href="https://any.chi-zu.net/62447.html">樺太道の市町村</a></li>
+   <li><a href="https://any.chi-zu.net/62542.html">勘察加・千島の市町村</a></li>
+   <li><a href="https://any.chi-zu.net/44582.html">北海道の鉄道</a></li>
+   <li><a href="https://any.chi-zu.net/31714.html">樺太道の鉄道</a></li>
+   <li><a href="https://any.chi-zu.net/33734.html">勘察加の鉄道</a></li>
+   <li><a href="https://any.chi-zu.net/60914.html">樺太の国道・道道</a></li>
+   <li><a href="https://any.chi-zu.net/63660.html">勘察加の国道・庁道</a></li>
+   <li><a href="https://any.chi-zu.net/67857.html">北海道の高速道路</a></li>
+   <li><a href="https://any.chi-zu.net/52829.html">樺太の高速道路</a></li>
+   <li><a href="https://any.chi-zu.net/51109.html">勘察加の高速道路</a></li>
+   <li><a href="https://any.chi-zu.net/60197.html">樺太・北海道の空港</a></li>
+  </ul>
+ </div>
+
+</main>
+
+<footer>
+ <div class="footer-list">
+  <p><a>北方大開発ぽ～たる</a></p>
+  <ul>
+   <li><a href="https://hoppo.suzuran09.jp/sitemap.html">サイトマップ</a></li>
+   <li><a href="#about">「北方大開発」とは</a></li>
+   <li><a href="#links">外部リンク集</a></li>
+  </ul>
+  <ul>
+   <li><a href="https://hoppo.suzuran09.jp/sitemap.html">総合資料室</a></li>
+   <li><a href="#about">地名対応表</a></li>
+   <li><a href="#links">開発コンテスト</a></li>
+  </ul>
+  <ul>
+   <li><a href="https://hoppo.suzuran09.jp/sitemap.html">作品検索</a></li>
+  </ul>
+  <ul>
+   <li><a href="https://hoppo.suzuran09.jp/sitemap.html">申請フォーム</a></li>
+   <li><a href="#about">参加規約</a></li>
+  </ul>
+ </div>
+ <div class="footer-message">
+  <p>This page is edited by <a href="https://portal.suzuran09.jp/">Suzuran</a>.</p>
+  <p>&copy; 2021-2026 Norce Area Development all rights reserved.</p>
+ </div>
+</footer>
+</body>
