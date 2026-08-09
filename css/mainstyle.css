@@ -27,6 +27,12 @@ header {
 
 }
 
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
 footer {
   color: white;
   background-color: #3E4365;
