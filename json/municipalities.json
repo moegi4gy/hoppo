@@ -1,0 +1,175 @@
+{
+ "municipalities": [{
+  "id": 1001,
+  "name": "大泊市",
+  "name_en": "Odomari City",
+  "name_kana": "おおどまりし",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": ""
+ },
+ {
+  "id": 1011,
+  "name": "留多加町",
+  "name_en": "Rutaka Town",
+  "name_kana": "るうたかちょう",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": "留多加郡"
+ },
+ {
+  "id": 1012,
+  "name": "大豊町",
+  "name_en": "Taihou Town",
+  "name_kana": "たいほうちょう",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": "留多加郡"
+ },
+ {
+  "id": 1013,
+  "name": "池月町",
+  "name_en": "Iketsuki Town",
+  "name_kana": "いけつきちょう",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": "留多加郡"
+ },
+ {
+  "id": 1014,
+  "name": "清水村",
+  "name_en": "Shimizu Village",
+  "name_kana": "しみずむら",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": "留多加郡"
+ },
+ {
+  "id": 1021,
+  "name": "長浜村",
+  "name_en": "Nagahama Village",
+  "name_kana": "ながはまむら",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": "大泊郡"
+ },
+ {
+  "id": 1022,
+  "name": "何日台村",
+  "name_en": "Nannichidai Village",
+  "name_kana": "なんにちだいむら",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": "大泊郡"
+ },
+ {
+  "id": 1023,
+  "name": "弥満村",
+  "name_en": "Yaman Village",
+  "name_kana": "やまんむら",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": "大泊郡"
+ },
+ {
+  "id": 1024,
+  "name": "皆別村",
+  "name_en": "Minabetsu Village",
+  "name_kana": "みなべつむら",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": "大泊郡"
+ },
+ {
+  "id": 1002,
+  "name": "豊原市",
+  "name_en": "Toyohara City",
+  "name_kana": "とよはらし",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": ""
+ },
+ {
+  "id": 1003,
+  "name": "北富山市",
+  "name_en": "Kitatoyama City",
+  "name_kana": "きたとやまし",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": ""
+ },
+ {
+  "id": 1004,
+  "name": "落合市",
+  "name_en": "Ochiai City",
+  "name_kana": "おちあいし",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": ""
+ },
+ {
+  "id": 1031,
+  "name": "美保村",
+  "name_en": "Biho Village",
+  "name_kana": "びほむら",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": "栄浜郡"
+ },
+ {
+  "id": 1032,
+  "name": "小田寒町",
+  "name_en": "Odasamu Town",
+  "name_kana": "おださむちょう",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": "栄浜郡"
+ },
+ {
+  "id": 1033,
+  "name": "雨露堪村",
+  "name_en": "Urotae Village",
+  "name_kana": "うろたえむら",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": "栄浜郡"
+ },
+ {
+  "id": 1041,
+  "name": "白縫村",
+  "name_en": "Shiranui Village",
+  "name_kana": "しらぬいむら",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": "元泊郡"
+ },
+ {
+  "id": 1042,
+  "name": "帆寄村",
+  "name_en": "Hoyori Village",
+  "name_kana": "ほよりむら",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": "元泊郡"
+ },
+ {
+  "id": 1043,
+  "name": "元泊村",
+  "name_en": "Motodomari Village",
+  "name_kana": "もとどまりむら",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": "元泊郡"
+ },
+ {
+  "id": 1044,
+  "name": "知取町",
+  "name_en": "Shirutoru Town",
+  "name_kana": "しるとるちょう",
+  "prefecture": "樺太道",
+  "branch": "豊原総合振興局",
+  "county": "元泊郡"
+ }
+
+]
+}
